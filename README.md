@@ -1,8 +1,26 @@
 # FerrisScraper
 
-FerrisScraper is a Rust-based web scraper that focuses on speed and efficiency.  
-Built with an asynchronous runtime (`tokio`), HTTP client (`reqwest`), and HTML parser (`scraper`),  
-FerrisScraper can be used to retrieve data from various websites and save it in JSON or CSV format.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg">
+    <img alt="The Rust Programming Language: A language empowering everyone to build reliable and efficient software"
+         src="https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg"
+         width="50%">
+  </picture>
+</div>
+
+FerrisScraper is a Rust-based web scraper that focuses on speed and efficiency. Built with an asynchronous runtime (`tokio`), HTTP client (`reqwest`), and HTML parser (`scraper`), FerrisScraper can be used to retrieve data from various websites and save it in JSON or CSV format.
+
+## Why Rust?
+
+- **Performance:** Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages.
+
+- **Reliability:** Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time.
+
+- **Productivity:** Comprehensive documentation, a compiler committed to providing great diagnostics, and advanced tooling including package manager and build tool `Cargo`, auto-formatter `rustfmt`, linter `Clippy` and editor support `rust-analyzer`.
+
+---
 
 ## Features
 - Asynchronous HTTP requests (using `tokio`)
